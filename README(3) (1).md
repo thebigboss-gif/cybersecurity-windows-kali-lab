@@ -4,11 +4,8 @@ A hands-on cybersecurity lab built with **Kali Linux** and **Windows** to practi
 authorized offensive security testing, network reconnaissance, service enumeration,
 security controls, and — in later stages — detection and incident investigation.
 
-> **Status:** 🚧 In Progress
-
 ---
-
-## 🎯 Project Objective
+# Project Objective
 
 The goal of this project is to build an isolated virtual environment where
 attacker activity can be safely simulated against a Windows target and then
@@ -16,7 +13,6 @@ analyzed from a defensive/SOC perspective.
 
 The project follows an attack-to-detection workflow:
 
-```text
 Reconnaissance
       ↓
 Enumeration
@@ -30,11 +26,10 @@ Detection
 Investigation
       ↓
 Mitigation
-```
 
 ---
 
-## 🖥️ Lab Environment
+## Lab Environment
 
 | Machine | Role | IP Address |
 |---|---|---|
@@ -49,7 +44,7 @@ Kali uses a separate interface for Internet connectivity while the
 
 ---
 
-## 📅 Project Progress
+## Project Progress
 
 ### Day 1 — Lab & Network Setup
 
@@ -90,7 +85,7 @@ Kali uses a separate interface for Internet connectivity while the
 
 ---
 
-## 🔎 Day 2 Highlights
+## Day 2 Highlights
 
 The reconnaissance phase demonstrated an important distinction between
 a service being **locally available** and being **network-accessible**.
@@ -132,7 +127,7 @@ unauthorized access is possible**.
 
 ---
 
-## 🧠 Key Concepts
+## Key Concepts
 
 ### Enumeration vs. Exploitation
 
@@ -164,7 +159,7 @@ Detection & investigation
 
 ---
 
-## 🛡️ Security Concepts Demonstrated
+## Security Concepts Demonstrated
 
 - Network reconnaissance
 - Port scanning
@@ -180,7 +175,7 @@ Detection & investigation
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 windows-kali-cyber-lab/
@@ -204,7 +199,7 @@ screenshots, observations, and findings from each stage.
 
 ---
 
-## 🚀 Roadmap
+## Roadmap
 
 The final goal is to demonstrate a complete security workflow:
 
@@ -241,7 +236,7 @@ Each stage will be documented as the project progresses.
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 All testing is performed against intentionally configured and authorized
 systems inside an isolated virtual laboratory.
