@@ -154,15 +154,6 @@ scope.
   protocol, port, and source IP kept the test environment realistic rather than
   just disabling protections wholesale.
 
-## Next steps
-
-- Authenticated SMB enumeration with valid lab credentials
-  (`smbclient -U labuser //192.168.100.20/CyberLab`)
-- Compare `NT_STATUS_ACCESS_DENIED` vs. `NT_STATUS_LOGON_FAILURE` responses and what
-  each implies about share vs. account misconfiguration
-- Deliberately misconfigure a share (e.g., `Everyone: Read`) to document the
-  contrast with the hardened baseline above
-
 ## Disclaimer
 
 All testing was performed against a personally owned, isolated lab environment
