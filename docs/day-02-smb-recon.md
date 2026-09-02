@@ -34,7 +34,7 @@ service/version detection.
 even a reset. This pattern is a strong indicator of a host-based firewall silently
 dropping unsolicited traffic, rather than the ports genuinely being closed.
 
-![nmap filtered results](screenshots/nmap-filtered.png)
+![nmap filtered results](../screenshots/nmap-filtered.png)
 
 ### 2. Validating against ground truth on the target
 
@@ -68,7 +68,7 @@ Rather than disabling the firewall, this opens the minimum necessary surface:
 TCP/445 only, inbound only, restricted to the Kali host's specific IP. A rescan
 confirms port 445 now shows `open`.
 
-![firewall rule scoped to single host](screenshots/firewall-rule.png)
+![firewall rule scoped to single host](../screenshots/firewall-rule.png)
 
 ### 5. Service enumeration
 
@@ -128,7 +128,7 @@ smbclient //192.168.100.20/CyberLab -N
 level, confirming the share exists and is reachable, but anonymous/null-session
 access is explicitly rejected.
 
-![access denied to CyberLab share](screenshots/smb-access-denied.png)
+![access denied to CyberLab share](../screenshots/smb-access-denied.png)
 
 ## Findings
 
